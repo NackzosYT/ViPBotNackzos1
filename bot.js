@@ -683,7 +683,7 @@ client.on('message', message => {
     }})
 
 client.on('message', message => {
-    if (message.content === "V!ping") {
+    if (message.content === "v!ping") {
      const embed = new Discord.RichEmbed()
 
  .setColor("#FF0000")
@@ -5088,7 +5088,7 @@ msg.channel.send(`${item.type}`).then(() => {
         
         
         client.on("message", message => {
-          if (message.content === "Bhelp") {
+          if (message.content === "v!help") {
             
         message.author.send(`**
 :wrench: __Moderation Commands:__ (ban , mute , warn need channel with incidents channel!)
